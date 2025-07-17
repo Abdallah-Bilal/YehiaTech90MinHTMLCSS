@@ -34,4 +34,12 @@
       .logo {
         width: 100px;
       }
+    /* End of header section  */
+    /* Start of landing  page  */
+    .landing-page {
+       display: flex;
+       justify-content: space-between ;
+
+    }
+
     
