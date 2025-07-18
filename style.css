@@ -1,5 +1,4 @@
- 
-      body {
+body {
         /* margin: 0; */
         font-family: "Roboto", sans-serif;
      }
@@ -55,19 +54,198 @@
         height: 30px;
     }
      
-    .landing-page-search .btn {
+    .landing-page-search button {
        
         position: absolute;
         left: 225px;
         height: 30px;
-      
+        
     }
     .landing-image-container img {
      border-radius: 15px;
      width: 400px;
+     margin: auto;
 
     }
 
     .landing-page-left{
         width: 500px;
     }
+    /* End of landing page  section */
+    /* Start of Trainding section  */
+    .trending-container {
+      padding: 20px 50px;
+      background-color: #ffffff;
+    
+    }
+
+    .trending-header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .trending-header h1 {
+      margin-top: 0PX;
+    }
+    .trending-container span {
+     font-size: 14px;
+     color: #ee626b;
+     transform: uppercase;
+
+    }
+   .trending-cards{
+    display: flex;
+    gap: 12px;
+   }
+    .trending-cards .card{
+      width: 300px;
+      border-radius: 20px;
+       background-color: #eeeeee;
+      
+    }
+    .card-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+     
+    
+   }
+   .card-info h3 {
+    margin: 0;
+   }
+   .card-info img{
+    width: 50px;
+    
+   }
+
+    .card-info img:hover{
+     transform:scale(1.2);
+      transition: all 0.3s ease-in-out;
+    }
+
+   .card .thumb{
+    border-radius: 20px 20px 0 0  ;
+   }
+
+   /* end of trending section  */
+
+   .top-games-container {
+    padding: 50px;
+    background-color: #eeeeee;
+    margin-top: 50px;
+     
+    border-radius: 50px;
+   }
+   .top-games-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+   }
+   .top-games-container span {
+    font-size: 14px;
+    color: #ee626b;
+    transform: uppercase;
+   }
+   .top-games-header h1{
+    margin-top: 0px;
+   }
+    .top-game-cards {
+      display: flex;
+      gap: 12px;
+    }
+   .top-game-cards .card{
+    width: 300px;
+    border-radius: 20px;
+    margin-right: 20px;
+    text-align: center;
+    
+   }
+   .top-game-cards .card p{
+     color: #808387;
+   }
+
+   .top-game-cards .card img{
+    width: 100%;
+    border-radius: 20px;
+   }
+/* end of top games  */
+/* start of top categories  */
+
+.top-categories-container{
+  padding: 50px;
+  margin-top: 50px;
+   
+}
+
+.top-categories-header
+{
+  text-align: center;
+}
+.top-categories-header h1{
+  margin-top: 0px;
+}
+.top-categories-header span {
+  font-size: 14px;
+  color: #ee626b;
+  transform: uppercase;
+}
+.top-categories-cards
+{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;/* Allow wrapping to next line*/
+  margin-top: 20px;
+}
+.top-categories-cards .card {
+  width: 300px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #0171f9;
+  color: #ffffff;
+  font-weight: bold;
+  border-bottom: 0px;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+
+.top-categories-cards .card:hover {
+  transform: translateY(-10px) scale(1.05);
+  z-index: 2;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.top-categories-cards .card img {
+  width: 100%;
+  border-radius: 0 0 20px 20px; /* Only round bottom corners */
+  display: block;
+  margin-bottom: 0; /* Remove any margin below image */
+  padding-bottom: 0; /* Remove padding below image */
+} 
+.top-categories-cards .card p  {
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+/* END of top categories  */
+/* start of footer  */
+footer{
+  background-color: #0171f9;
+  color: #ffffff;
+  padding: 20px 50px;
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 20px 20px 0 0;
+  
+}
+
+footer p {
+  margin: 0;
+  padding: 50px;
+  font-size: x-large;
+}
+
